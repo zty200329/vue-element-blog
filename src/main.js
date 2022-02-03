@@ -4,6 +4,10 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+
+// ElementUI 按需加载
+import './element-ui.js'
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
